@@ -1,16 +1,10 @@
 public class LeetCodeReverseString{
     public static void main(String[] args){
-       char[] resul = reverseString(new char[]{'T', 'I', 'A', 'G', 'O'});
-System.out.println( "T I A G O");
-       for (char c : resul) {
-        
-        System.out.print(c + " ");
-       }
-       System.out.println();
+       
     }
 
 
-    public static char[] reverseString(char[] s){
+    public static void reverseString(char[] s){
         int pont_initial = 0;
         int pont_final = s.length - 1; 
 
@@ -27,6 +21,6 @@ System.out.println( "T I A G O");
         }
         
 
-        return s;
+        
     }
 }
